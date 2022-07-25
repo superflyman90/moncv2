@@ -1,0 +1,23 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .pres {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        h1 {
+            font-weight: 700;
+        }
+        h4 {
+            align-self: flex-start;
+            background: FFC905;
+            border-radius: 5px;
+            margin: 2rem;
+            font-size: 15px;
+            padding:4px;
+        }
+    }
+}

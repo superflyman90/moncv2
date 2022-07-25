@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(202, 231, 176);
+    color: #333;
+    font-family: $title-shadow;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px repeat(auto-fill, 100px);
+    width: 80%;
+    margin: 0 auto;
+}
